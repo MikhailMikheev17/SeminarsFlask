@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Cписок студентов </h1>
+    <p>
+        {% for stud in person %}
+        <p>{{stud.first_name}}  {{stud.last_name}}  {{stud.age}}  {{stud.average_score}}</p>
+        {% endfor %}
+    </p>
+    
+</body>
+</html>
