@@ -1,0 +1,11 @@
+{% extends 'shop.html' %}
+
+{% block title %}
+Clothes title 
+{% endblock %}
+
+{% block body_content %}
+{% for item in clothes %}
+        <p>{{item.name}}  {{item.price}}  {{item.description}}</p>
+        {% endfor %} 
+{% endblock %}
