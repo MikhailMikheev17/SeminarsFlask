@@ -6,8 +6,8 @@
 
 {% block content %}
 <div class="row">
-    <p class="col-12">Мы не нашли такого пользователя.<br>
-        <a href="{{ url_for('hello') }}">Попробуйте вернуться на главную</a>
+    <p class="col-12">Что-то вы ввели не так, попробйте еще раз<br>
+        <a href="{{ url_for('check_name') }}">Попробуйте вернуться на главную</a>
     </p>
 </div>
 {% endblock %}
